@@ -6,7 +6,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.getenv("8536785178:AAExNs0r_7OLZoJuFMqNWTgqXkSt3Nm-ZwM")
+TOKEN = os.getenv(")
 
 async def form(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
